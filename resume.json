@@ -30,9 +30,9 @@
   "work": [
     {
       "highlights": [
-        "Designed, Implemented and shipped new features on internal applications. This resulted in improved developer productivity and reduced deployment issues on Kubernetes.",
+        "Designed, Implemented and shipped new features on internal applications. This resulted in improved developer productivity allowing them to deploy applications on Kubernetes with ease.",
         "Improved monitoring stack and reducted time to detection of service outages by integrating Grafana and Victoria Metrics with backend services.",
-        "Developed a tool to shed incoming traffic on Ambassador API gateway. This was used to shed extra traffic at Ambassador, when the backend services are under stress.",
+        "Developed a tool to to perform Load shedding on Ambassador API gateway. This allowed services to fail gracefully when there is traffic congestion.",
         "Reduced manual intervention during high traffic events by adding new features on internal applications, to scale backend services based on expected traffic.",
         "Evaluated multiple open source libraries for Distributed Tracing like OpenCensus and OpenTelemetry and assessed the complexity of integrating them with backend services.",
         "Took on-call responsibility for DevOps team during high traffic events and helped resolve Live issues."
@@ -49,12 +49,12 @@
       "startDate": "June 2019",
       "endDate": "August 2021",
       "highlights": [
-        "Developed highly scalable microservices using Java and Spring Boot for multiple large e-commerce clients.",
+        "Developed highly scalable microservices using Java and Spring Boot for large e-commerce clients.",
         "Ran performance tests using Python and Locust to benchmark backend services. This helped us discover inefficient JPA queries.",
         "Optimized inefficient JPA queries using Entity Graph, this enabled the backend services to handle over 3000 requests/second.",
         "Improved developer experience by adding integration tests using Junit and Mockito for existing backend services. This reduced frequency of bugs and improved availability of services.",
-        "Built and deployed a scalable workflow orchestration engine from scratch under tight deadlines.",
-        "Organised multiple Data Analysis workshops using Python and Pandas, in collaboration with She Loves Data,",
+        "Built and deployed a scalable workflow orchestration engine using Java and Spring Boot from scratch under tight deadlines.",
+        "Organised multiple Data Analysis workshops using Python and Pandas, in collaboration with She Loves Data.",
         "Mentored new graduates and help them getting started in new projects by sharing assignments, doing code walkthroughs and code reviews."
       ],
       "position": "Application Developer"
