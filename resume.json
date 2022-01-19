@@ -16,15 +16,26 @@
     },
     "website": "http://sandyjswl.com/"
   },
+  "education": [
+    {
+      "institution": "Siliguri Institute of Technology",
+      "location": "Siliguri",
+      "area": "Computer Science",
+      "startDate": "August 2015",
+      "endDate": "June 2019",
+      "studyType": "Bachelor of Technology",
+      "gpa": "8.57"
+    }
+  ],
   "work": [
     {
       "highlights": [
-        "Implemented new features on internal tools built using React and Ruby",
-        "Integrated monitoring and observability tools like Grafana and Victoria Metrics with existing backend services",
-        "POC on different libraries for distributed tracing",
-        "Built a tool for load shedding on Ambassador API Gateway during high concurrency live streaming events",
-        "Work extensively with Kubernetes for deploying and scaling hotstar infrastructure",
-        "Took on-call responsibility for DevOps team and helped resolve Live issues"
+        "Designed, Implemented and shipped new features on internal applications. This resulted in improved developer productivity and reduced deployment issues on Kubernetes.",
+        "Improved monitoring stack and reducted time to detection of service outages by integrating Grafana and Victoria Metrics with backend services.",
+        "Developed a tool to shed incoming traffic on Ambassador API gateway. This was used to shed extra traffic at Ambassador, when the backend services are under stress.",
+        "Reduced manual intervention during high traffic events by adding new features on internal applications, to scale backend services based on expected traffic.",
+        "Evaluated multiple open source libraries for Distributed Tracing like OpenCensus and OpenTelemetry and assessed the complexity of integrating them with backend services.",
+        "Took on-call responsibility for DevOps team during high traffic events and helped resolve Live issues."
       ],
       "company": "Disney+ Hotstar",
       "position": "Software Development Engineer I",
@@ -38,14 +49,13 @@
       "startDate": "June 2019",
       "endDate": "August 2021",
       "highlights": [
-        "Developed highly scalable microservices using Java and spring boot for various clients",
-        "Ran performance tests for backend services using Python and Locust and optimzed them to handle over 3000 req/sec",
-        "Used Event Driven architecture to communicate between multiple microservices",
-        "Built and shipped a workflow orchestration engine from scratch using Java and Spring Boot",
-        "Organised multiple Data Analysis workshops using Python and Pandas",
-        "Mentor new graduates and help them getting started in the organisation",
-        "Contributed towards delivery of each project (analysis, development and testing)",
-        "Interfaced with clients on a weekly basis, providing technological expertise"
+        "Developed highly scalable microservices using Java and Spring Boot for multiple large e-commerce clients.",
+        "Ran performance tests using Python and Locust to benchmark backend services. This helped us discover inefficient JPA queries.",
+        "Optimized inefficient JPA queries using Entity Graph, this enabled the backend services to handle over 3000 requests/second.",
+        "Improved developer experience by adding integration tests using Junit and Mockito for existing backend services. This reduced frequency of bugs and improved availability of services.",
+        "Built and deployed a scalable workflow orchestration engine from scratch under tight deadlines.",
+        "Organised multiple Data Analysis workshops using Python and Pandas, in collaboration with She Loves Data,",
+        "Mentored new graduates and help them getting started in new projects by sharing assignments, doing code walkthroughs and code reviews."
       ],
       "position": "Application Developer"
     }
@@ -56,27 +66,29 @@
       "keywords": [
         "Java",
         "Python",
-        "JavaScript",
-        "Rust",
-        "Go"
+        "Go",
+        "Bash"
       ],
-      "name": "Programming Languages"
+      "name": "Backend"
     },
     {
       "keywords": [
+        "React",
+        "Angular",
+        "Material UI",
+        "Jasmine"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "AWS",
         "Kubernetes",
         "Docker",
-        "GoCD"
+        "GoCD",
+        "Helm"
       ],
       "name": "Infrastructure"
-    },
-        {
-      "keywords": [
-        "Victoria Metrics",
-        "Prometheus",
-        "Grafana"
-      ],
-      "name": "Monitoring Tools"
     },
     {
       "keywords": [
@@ -90,28 +102,24 @@
     {
       "keywords": [
         "Spring Boot",
-        "Angular",
         "Flask",
         "Locust",
         "Pandas",
-        "Numpy"
+        "Numpy",
+        "Junit",
+        "Mockito"
       ],
       "name": "Frameworks"
     },
     {
       "keywords": [
-        "Google Cloud Platform",
-        "Amazon Web Services"
+        "Victoria Metrics",
+        "Prometheus",
+        "Grafana",
+        "Maven",
+        "Git"
       ],
-      "name": "Cloud Platforms"
-    },
-    {
-      "keywords": [
-        "Apache Kafka",
-        "Web Scraping",
-        "Data Analysis using Python"
-      ],
-      "name": "Other Technical Skills"
+      "name": "Others"
     }
   ],
   "projects": [
@@ -125,17 +133,6 @@
         "MongoDB"
       ],
       "name": "SocialHub"
-    },
-    {
-      "description": "Contributed to an Open Source project for an NGO to monitor the vitals of patients during COVID-19. This was deployed on an IoT device and it monitored all the essential vitals of patients in a COVID ward and informed the doctor in case of an emergency.",
-      "url": "",
-      "keywords": [
-        "Python",
-        "SQLite",
-        "Ionic",
-        "Docker"
-      ],
-      "name": "Vital Monitoring"
     },
     {
       "keywords": [
@@ -159,17 +156,6 @@
       "description": "Shopping Price Alert is a web application where users can enter the URL of a product from Amazon/Flipkart and they will be notified as soon as there is a price drop in the selected product. Built using Angular and Python."
     }
   ],
-  "education": [
-    {
-      "institution": "Siliguri Institute of Technology",
-      "location": "Siliguri",
-      "area": "Computer Science",
-      "startDate": "August 2015",
-      "endDate": "June 2019",
-      "studyType": "Bachelor of Technology",
-      "gpa": "8.57"
-    }
-  ],
   "awards": [
     {
       "title": "",
@@ -184,7 +170,7 @@
     "work",
     "skills",
     "projects",
-    "education",
-    "awards"
+    "awards",
+    "education"
   ]
 }
