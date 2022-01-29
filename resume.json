@@ -34,7 +34,7 @@
         "Improved monitoring stack and helped maintain service availability of 99.95% by integrating Grafana and Victoria Metrics with backend services.",
         "Developed a tool which allowed backend services to fail gracefully when there is traffic congestion, resulting in echanced user experience and better customer retention.",
         "Evaluated multiple open source libraries for Distributed Tracing like OpenCensus and OpenTelemetry and assessed the complexity of integrating them with backend services.",
-        "Took on-call responsibility for DevOps team during high traffic events and helped resolve Live issues.",
+        "Took on-call responsibility for DevOps team during high traffic events and resolved Live issues.",
         "Tech Stack: Kubernetes, Docker, React, Ruby on Rails, Prometheus, Victoria Metrics, AWS, DevOps"
       ],
       "company": "Disney+ Hotstar",
@@ -49,14 +49,37 @@
       "startDate": "June 2019",
       "endDate": "August 2021",
       "highlights": [
+        "Doubled the revenue of a large e-commerce company by building scalable and reliable microservices which helped the company move to a Marketplace business model.",
         "Automated performance tests using Python and Locust to benchmark backend services. This helped discover API endpoints with large response time.",
         "Optimized inefficient JPA queries using Entity Graph, this enabled the backend services to handle over 3000 requests/second.",
         "Enhanced developer experience by adding integration tests using Junit and Mockito for existing backend services. This reduced frequency of bugs and increased availability of services.",
         "Organised multiple Data Analysis workshops using Python and Pandas, in collaboration with She Loves Data.",
-        "Mentored new graduates and help them getting started in new projects by sharing assignments, doing code walkthroughs and code reviews.",
+        "Mentored new graduates and onboarded them in new projects by sharing assignments, performing code walkthrough and code reviews.",
         "Tech Stack: Java, Spring Boot, Angular, Microservices, PostgreSQL"
       ],
       "position": "Application Developer"
+    },
+    {
+      "company": "Thoughtworks",
+      "location": "Bengaluru",
+      "startDate": "January 2019",
+      "endDate": "April 2019",
+      "highlights": [
+        "Trained in Agile Methodologies and industry best practices like TDD and Pair Programming.",
+        "Developed a fullstack e-commerce application using Spring MVC to enable a business to sell their products online."
+      ],
+      "position": "Application Developer Intern"
+    },
+    {
+      "company": "AsknBid Innovation Factory",
+      "location": "Remote",
+      "startDate": "June 2018",
+      "endDate": "November 2018",
+      "highlights": [
+        "Implemented a hybrid Machine Learning model to perform sentiment analysis using RAKE and TF-IDF.",
+        "Ranked online articles and websites by scraping data and then analysing them using a sentiment analysis model."
+      ],
+      "position": "Python Developer Intern"
     }
   ],
   "skills": [
